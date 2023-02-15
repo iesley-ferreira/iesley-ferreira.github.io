@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(83, 58, 113);
+    color: rgb(156, 236, 91);
+    font-family: OCR A Std, monospace;
+}
+
+h2 {
+    font-family: OCR A Std, monospace;
+}
+
+a {
+    display: inline-block;
+}
+
