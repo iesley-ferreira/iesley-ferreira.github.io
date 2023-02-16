@@ -1,6 +1,8 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: rgb(83, 58, 113);
-    color: rgb(156, 236, 91);
+    color: #79E125;
     font-family: OCR A Std, monospace;
 }
 
@@ -12,3 +14,64 @@ a {
     display: inline-block;
 }
 
+div#img {
+    position: relative;
+    padding: 17px;
+    background-color: aliceblue;
+}
+
+div#sobre-mim {
+    position: absolute;
+    top: 190px; left: 350px;
+    width: 400px;
+    color: #1F89FA;
+}
+
+div#nome {
+    text-align: center;
+}
+
+div#menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+div#menu a {
+    color:  rgb(237, 107, 134);
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+div#menu ul li {
+    display: inline;
+}
+
+div#menu ul {
+    text-align: center;
+}
+
+div#caracteristicas li {
+    color: rgb(237, 178, 48);
+    padding: 3px;
+}
+
+div#blogs li a {
+    color: rgb(237, 178, 48);
+    text-decoration: none;
+    padding: 3px;
+}
+
+div#blogs {
+    margin: 12px 0 20px 14px;
+}
+
+div#caracteristicas {
+    margin: 30px 0 50px 14px;
+}
+
+div#caracteristicas li:nth-of-type(odd) {
+    text-decoration: double;
+    font-size: large;
+}
